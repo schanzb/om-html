@@ -1,0 +1,151 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Ben Schanzer | @bschanzer23
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+     background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+     margin: auto;
+     width: 1000px;
+     padding: 10px;
+    }  
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+h1 {
+     font-size: 50px;
+     margin-bottom: 0px;
+     line-height: 0px;
+}
+
+h4{
+     margin-top: 20px;
+}
+
+#main {
+     background: white;
+     width: 60%;
+     margin: 0 5 0 5;
+     padding: 20px;
+     float: left;
+
+}
+
+#first {
+     margin-top: 0px !important;
+     line-height: 0px;
+     font-size: 30px;
+     
+}
+
+.title {
+     font-size: 30px;
+     margin-top: 60px;
+     line-height: 0px;
+}
+
+
+
+img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.sideheader {
+     font-size: 20px !important;
+}
+
+p {
+     font-size: 12px;
+}
+
+h6 {
+     color: #bbbbbb;
+     font-size: 12px;
+}
+
+.caption {
+     border-bottom: 1px solid;
+     border-color: #bbbbbb;
+     margin-block-start: 0px;
+}
+
+#divider {
+     background: lightcoral;
+     width: 10px;
+     display: inline;
+     float: left;
+}
+
+
+#sidebar {
+     background: white;
+     width: 30%;
+     float: left;
+     padding: 20px;
+     margin-left: 15px;
+}
+
+a {
+     color: #ED6E4E;
+     text-decoration: none;
+}
+
+blockquote {
+     border-left: 3px solid;
+     border-color: #bbbbbb;
+     padding: 5px;
+     margin-left: 15px;
+     font-style: italic;
+     font-size: 12px;
+}
+
+.sideheader {
+     font-size: 20px;
+}
+
+#author {
+     font-size: 16px;
+}
+
+li {
+     line-height: 20px;
+}
+
+#footer {
+     font-size: 16px !important;
+}
+
+#chrisPic{
+     float: left;
+     border-radius: 50%;
+}
+
+
+
