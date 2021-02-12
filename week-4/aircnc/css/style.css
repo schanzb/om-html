@@ -45,8 +45,74 @@ strong {
   padding: 0.75rem 5rem;
   border-bottom: 1px solid rgb(227, 25, 29);
   border-radius: 2px;
-  width: 95%;
+  width: 274px;
   margin: 0 auto;
 }
 
+/*
+ * Header and .hero Styles
+*/
+
+header {
+  background: #FFF;
+}
+
+header .logo {
+  border-right: 1px solid #DCE0E0;
+}
+
+.hero img {
+  width: 100%;
+}
+
+
+/*body styles*/
+
+.sect1 {
+  background: white;
+  height: 200px;
+}
+
+.sect1 .container {
+  margin: auto;
+  width: 70%;
+}
+
+.owern-details {
+  float: left;
+  padding: 10px;
+}
+
+.owern-details img {
+  border-radius: 50%;
+}
+
+.relationship {
+  font: OpenSans;
+  font-weight: regular;
+  font-size: 14px;
+  text-align: center;
+}
+
+.name {
+  font: OpenSans;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.pet-details {
+  padding: 20px;
+}
+
+.pet-details h1 {
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.pet-details p {
+  font-size: 14px;
+  margin-top: 25px;
+}
 
