@@ -138,7 +138,6 @@ header .logo {
 */
 .about{
   padding: 1.5625rem;
-  text-align: center;
   border-bottom: 1px solid #DCE0E0;
 }
 
@@ -147,6 +146,7 @@ header .logo {
   font-size: 1rem;
   color: #565A5C;
   margin-top: 2.75rem;
+  text-align: center;
 }
 
 .about p{
@@ -162,6 +162,7 @@ header .logo {
   font-size: .8125rem;
   color: #FF595F;
   margin-top: 1.4375rem;
+  text-align: center;
 }
 
 /*
@@ -183,7 +184,7 @@ header .logo {
 }
 
 /*
-* Care
+* Games
 */
 
 .games {
@@ -209,6 +210,7 @@ header .logo {
 
 .pictures {
   padding: 1.5625rem;
+  border-bottom: 1px solid #DCE0E0;
 }
 
 @media only screen and (min-width: 1060px) {
@@ -224,7 +226,6 @@ header .logo {
 
   .info .column {
     float: left;
-
   }
 
   .button {
@@ -266,6 +267,94 @@ header .logo {
   .info .pet-details .icon img {
     display: block;
     margin: .1875rem auto .1875rem;
+  }
+
+  /*
+ * About
+  */
+  .about .container {
+    margin: 0 auto auto 310px;
+    width: 655px;
+  }
+
+  .about h3 {
+    margin-top: 2.75rem;
+  }
+
+  .about a{
+    text-align: left; /*can't get this to look right */
+  }
+
+
+
+  /*
+  * Care
+  */
+
+  .care .container {
+    margin: 0 auto auto 310px;
+    width: 655px;
+    margin-top: .75rem;
+    height: 130px;
+  }
+
+  .care .care-header {
+    width: 170px;
+    float: left;
+  }
+
+  .care .food-toy {
+    width: 260px;
+    float: left;
+  }
+
+  .care .check {
+    width: 225px;
+    float: left;
+
+  }
+
+
+
+
+  /*
+  * Games
+  */
+
+  .games .container {
+    margin: 0 auto auto 310px;
+    width: 655px;
+    margin-top: .75rem;
+    height: 130px;
+  }
+
+  .games .header{
+    width: 170px;
+    float: left;
+
+  }
+
+  .games .games-list {
+    float: left;
+  }
+  /*
+  * Pictures
+  */
+  .pictures .container {
+    margin-top: 28px;
+    margin: 0 auto auto 310px;
+    width: 655px;
+    padding-bottom: 80px;
+  }
+
+  #dog1, #dog2, #dog3{
+    width: 200px;
+    display: initial;
+    float: left;
+  }
+
+  #dog1, #dog2 {
+    margin-right: 27px;
   }
 
 }
