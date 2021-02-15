@@ -84,6 +84,7 @@ header .logo {
   background: #fff;
   text-align: center;
   padding: 1.5625rem;
+  border-bottom: 1px solid #DCE0E0;
 }
 
 .info h1 {
@@ -132,15 +133,96 @@ header .logo {
 }
 
 
+/*
+ * About
+*/
+.about{
+  padding: 1.5625rem;
+  text-align: center;
+  border-bottom: 1px solid #DCE0E0;
+}
+
+.about h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #565A5C;
+  margin-top: 2.75rem;
+}
+
+.about p{
+  font-size: .8125rem;
+  line-height: 1.375rem;
+  color: #565A5C;
+  text-align: left;
+  margin-top: 1.6875rem;
+}
+
+.about a{
+  font-weight: bold;
+  font-size: .8125rem;
+  color: #FF595F;
+  margin-top: 1.4375rem;
+}
+
+/*
+* Care
+*/
+
+.care {
+  padding: 1.5625rem;
+  border-bottom: 1px solid #DCE0E0;
+}
+
+.care .header {
+  margin-bottom: .5rem;
+}
+
+.care .care-item {
+  font-weight: bold;
+  line-height: 20px;
+}
+
+/*
+* Care
+*/
+
+.games {
+  padding: 1.5625rem;
+  border-bottom: 1px solid #DCE0E0;
+}
+
+.games .header {
+  margin-bottom: .5rem;
+}
+
+.games p{
+  line-height: 20px;
+}
+
+/*
+* Pictures
+*/
+
+#dog3, #dog2 {
+  display: none;
+}
+
+.pictures {
+  padding: 1.5625rem;
+}
+
 @media only screen and (min-width: 1060px) {
 
-  .container {
+  /*
+  * Info
+  */
+  .info .container {
     width: 1040px;
     margin: 0 auto;
   }
 
 
-  .column {
+  .info .column {
     float: left;
 
   }
